@@ -1,4 +1,4 @@
-const sequelize = require('./util/dbUtil.js')
+const sequelize = require('../util/dbUtil.js')
 const Sequelize = require('Sequelize');
 
 const StudentEntity = sequelize.define('students', {
